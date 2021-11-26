@@ -5,6 +5,7 @@ use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 use App\Http\Controllers\FrontendController;
 use App\Http\Controllers\home;
 use App\Http\Controllers\about;
+use App\Http\Controllers\profile;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,6 +22,7 @@ use App\Http\Controllers\about;
 //     return view('welcome');
 // });
 
-Route::get('/', [home::class, 'index']);
+Route::get('/', [home::class, 'home']);
 Route::get('/about', [about::class, 'about']);
+Route::get('/profile',[profile::class,'profile']);
 
