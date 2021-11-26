@@ -43,7 +43,7 @@
 						<ul class="nav-list onepge">
 							<li><a href="#home" class="menu-links">Home</a></li>
 							<li><a href="#about" class="menu-links">About</a></li>
-							<li><a href="#services" class="menu-links">Services</a></li>
+							<li><a href="#services" class="menu-links">Fasilitas Dan Layanan</a></li>
 							<li><a href="#work" class="menu-links">Work</a></li>
 							<li><a href="#team" class="menu-links">Team</a></li>
 							<li><a href="#blogs" class="menu-links">Blog</a></li>
@@ -182,7 +182,7 @@
 							<div class="col-lg-6 v-center h-scl-">
 								<div class="img-block-ca2 text-center h-scl-base m-mt30">
 									<img src="https://images2.prokal.co/webkp/file/berita/2021/11/04/d61d898b77d8703b740394aabf4968c2.JPG" alt="about" class="abt-ca2" />
-									<div class="shape-dg-1 dg-hero-shp1"><img src="https://kaltimku.id/wp-content/uploads/2021/07/20210722_133105-scaled.jpg" alt="shape" class="img-fluid dot-sp-ca2"></div>
+
 								</div>
 							</div>
 						</div>
@@ -195,8 +195,8 @@
 						<div class="row justify-content-center">
 							<div class="col-lg-8">
 								<div class="common-heading text-center">
-									<h2 class="mb20">We help Brands with</h2>
-									<p class="mb30">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+									<h2 class="mb20">FASILITAS DAN LAYANAN</h2>
+									{{-- <p class="mb30">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> --}}
 								</div>
 							</div>
 						</div>
@@ -204,8 +204,8 @@
 							<div class="col-lg-4 col-sm-6 mt30 wow fadeInUp" data-wow-delay=".2s">
 								<div class="s-block up-hor bd-hor-base">
 									<div class="nn-card-set">
-										<div class="s-card-icon"><img src="images/icons/branding.svg" alt="service" class="img-fluid" /></div>
-										<h4>Social Media Marketing</h4>
+										<div class="s-card-icon"><img src="{{asset(('images/rawatjalan.png'))}}" alt="service" class="img-fluid" /></div>
+										<h4>Poli Rawat Jalan</h4>
 										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 										<a href="javascript:void(0)">Learn More <i class="fas fa-chevron-right fa-icon"></i></a>
 									</div>
@@ -214,8 +214,8 @@
 							<div class="col-lg-4 col-sm-6 mt30 wow fadeInUp" data-wow-delay=".4s">
 								<div class="s-block up-hor bd-hor-base">
 									<div class="nn-card-set">
-										<div class="s-card-icon"><img src="images/icons/development.svg" alt="service" class="img-fluid" /></div>
-										<h4>Branding & Identity</h4>
+										<div class="s-card-icon"><img src="{{asset(('images/rawatinap.png'))}}" alt="service" class="img-fluid" /></div>
+										<h4>Poli Rawat Inap</h4>
 										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 										<a href="javascript:void(0)">Learn More <i class="fas fa-chevron-right fa-icon"></i></a>
 									</div>
@@ -224,8 +224,8 @@
 							<div class="col-lg-4 col-sm-6 mt30 wow fadeInUp" data-wow-delay=".6s">
 								<div class="s-block up-hor bd-hor-base">
 									<div class="nn-card-set">
-										<div class="s-card-icon"><img src="images/icons/app.svg" alt="service" class="img-fluid" /></div>
-										<h4>Performance Marketing</h4>
+										<div class="s-card-icon"><img src="{{asset('images/mcu.png')}}" alt="service" class="img-fluid" /></div>
+										<h4>Medical Check Up</h4>
 										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 										<a href="javascript:void(0)">Learn More <i class="fas fa-chevron-right fa-icon"></i></a>
 									</div>
@@ -234,8 +234,8 @@
 							<div class="col-lg-4 col-sm-6 mt30 wow fadeInUp" data-wow-delay=".8s">
 								<div class="s-block up-hor bd-hor-base">
 									<div class="nn-card-set">
-										<div class="s-card-icon"><img src="images/icons/marketing.svg" alt="service" class="img-fluid" /></div>
-										<h4>Instagram Growth</h4>
+										<div class="s-card-icon"><img src="{{asset('images/hemodialisa.png')}}" alt="service" class="img-fluid" /></div>
+										<h4>Hemodialisa</h4>
 										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 										<a href="javascript:void(0)">Learn More <i class="fas fa-chevron-right fa-icon"></i></a>
 									</div>
@@ -244,8 +244,8 @@
 							<div class="col-lg-4 col-sm-6 mt30 wow fadeInUp" data-wow-delay="1s">
 								<div class="s-block up-hor bd-hor-base">
 									<div class="nn-card-set">
-										<div class="s-card-icon"><img src="images/icons/marketing.svg" alt="service" class="img-fluid" /></div>
-										<h4>Online Branding</h4>
+										<div class="s-card-icon"><img src="{{asset('images/laboratorium.png')}}" alt="service" class="img-fluid" /></div>
+										<h4>Laboratorium</h4>
 										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 										<a href="javascript:void(0)">Learn More <i class="fas fa-chevron-right fa-icon"></i></a>
 									</div>
