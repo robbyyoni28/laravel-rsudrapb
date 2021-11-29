@@ -254,8 +254,48 @@
 							<div class="col-lg-4 col-sm-6 mt30 wow fadeInUp" data-wow-delay="1.2s">
 								<div class="s-block up-hor bd-hor-base">
 									<div class="nn-card-set">
-										<div class="s-card-icon"><img src="images/icons/marketing.svg" alt="service" class="img-fluid" /></div>
-										<h4>Video Marketing</h4>
+										<div class="s-card-icon"><img src="{{asset('images/bedah.png')}}" alt="service" class="img-fluid" /></div>
+										<h4>Bedah</h4>
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+										<a href="javascript:void(0)">Learn More <i class="fas fa-chevron-right fa-icon"></i></a>
+									</div>
+								</div>
+							</div>
+                            <div class="col-lg-4 col-sm-6 mt30 wow fadeInUp" data-wow-delay="1.2s">
+								<div class="s-block up-hor bd-hor-base">
+									<div class="nn-card-set">
+										<div class="s-card-icon"><img src="{{asset('images/fisioterapi.png')}}" alt="service" class="img-fluid" /></div>
+										<h4>Fisioterapi</h4>
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+										<a href="javascript:void(0)">Learn More <i class="fas fa-chevron-right fa-icon"></i></a>
+									</div>
+								</div>
+							</div>
+                            <div class="col-lg-4 col-sm-6 mt30 wow fadeInUp" data-wow-delay="1.2s">
+								<div class="s-block up-hor bd-hor-base">
+									<div class="nn-card-set">
+										<div class="s-card-icon"><img src="{{asset('images/radiologi.png')}}" alt="service" class="img-fluid" /></div>
+										<h4>Radiologi</h4>
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+										<a href="javascript:void(0)">Learn More <i class="fas fa-chevron-right fa-icon"></i></a>
+									</div>
+								</div>
+							</div>
+                            <div class="col-lg-4 col-sm-6 mt30 wow fadeInUp" data-wow-delay="1.2s">
+								<div class="s-block up-hor bd-hor-base">
+									<div class="nn-card-set">
+										<div class="s-card-icon"><img src="{{asset('images/farmasi.png')}}" alt="service" class="img-fluid" /></div>
+										<h4>Farmasi</h4>
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+										<a href="javascript:void(0)">Learn More <i class="fas fa-chevron-right fa-icon"></i></a>
+									</div>
+								</div>
+							</div>
+                            <div class="col-lg-4 col-sm-6  mt30 wow fadeInUp" data-wow-delay="1.2s" >
+								<div class="s-block up-hor bd-hor-base">
+									<div class="nn-card-set" >
+										<div class="s-card-icon"><img src="{{asset('images/farmasi.png')}}" alt="service" class="img-fluid" /></div>
+										<h4>Farmasi</h4>
 										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 										<a href="javascript:void(0)">Learn More <i class="fas fa-chevron-right fa-icon"></i></a>
 									</div>
