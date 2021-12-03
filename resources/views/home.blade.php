@@ -22,17 +22,23 @@
 		<link href="{{asset('css/darkmode.css')}}" rel="stylesheet">
 		<style>html { scroll-behavior: smooth;}</style>
 	</head>
-	<body class="dg-bg--1 dark-main active-dark">
+	<body>
+        <div class="switch-wrapper">
+            <label class="switch" for="niwax">
+              <input type="checkbox" id="niwax"/>
+              <div class="slider round"></div>
+            </label>
+          </div>
 		<!--Start Preloader -->
 		<div class="onloadpage" id="page_loader">
 			<div class="pre-content">
 			   <div class="logo-pre"><img src="http://2.bp.blogspot.com/-GUko8t7XodU/VND4AhaJj4I/AAAAAAAABhI/cOZOsW0zdHM/s1600/logo+pemkab+penajam+paser+utara.png" alt="Logo" class="img-fluid" /></div>
-			   <div class="pre-text- text-radius text-light text-animation bg-b">Niwax - Creative Agency & Portfolio HTML Template Are 2 Seconds Away. Have Patience</div>
+			   <div class="pre-text- text-radius text-light text-animation bg-b">RSUD PUTRI AJI BOTUNG KABUPATEN PENAJAM PASER UTARA</div>
 			</div>
 		 </div>
 		<!--End Preloader -->
 		<!--Start Header -->
-		<header class="nav-bg-b main-header navfix fixed-top menu-dark">
+		<header class="nav-bg-b main-header navfix fixed-top ">
 			<div class="container-fluid m-pad">
 				<div class="menu-header">
 					<div class="dsk-logo"><a class="nav-brand" href="digital-agency.html">
@@ -41,7 +47,7 @@
 					</a></div>
 					<div class="custom-nav" role="navigation">
 						<ul class="nav-list onepge">
-							<li><a href="#home" class="menu-links">Home</a></li>
+							<li><a href="/" class="menu-links">Home</a></li>
 							<li><a href="#about" class="menu-links">About</a></li>
 							<li><a href="#services" class="menu-links">Fasilitas Dan Layanan</a></li>
 							<li><a href="#work" class="menu-links">Work</a></li>
@@ -80,7 +86,7 @@
 								</a>
 							</li>
 							<li class="prb">
-								<a href="mailto:somewebmedia@gmail.com">
+								<a href="rsudpenajam@yahoo.com">
 									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
 								</a>
 							</li>
@@ -207,7 +213,7 @@
 										<div class="s-card-icon"><img src="{{asset(('images/rawatjalan.png'))}}" alt="service" class="img-fluid" /></div>
 										<h4>Poli Rawat Jalan</h4>
 										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-										<a href="javascript:void(0)">Learn More <i class="fas fa-chevron-right fa-icon"></i></a>
+										<a href="/rawatjalan">Learn More <i class="fas fa-chevron-right fa-icon"></i></a>
 									</div>
 								</div>
 							</div>
@@ -294,8 +300,28 @@
                             <div class="col-lg-4 col-sm-6  mt30 wow fadeInUp" data-wow-delay="1.2s" >
 								<div class="s-block up-hor bd-hor-base">
 									<div class="nn-card-set" >
-										<div class="s-card-icon"><img src="{{asset('images/farmasi.png')}}" alt="service" class="img-fluid" /></div>
-										<h4>Farmasi</h4>
+										<div class="s-card-icon"><img src="{{asset('images/igd.png')}}" alt="service" class="img-fluid" /></div>
+										<h4>IGD</h4>
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+										<a href="javascript:void(0)">Learn More <i class="fas fa-chevron-right fa-icon"></i></a>
+									</div>
+								</div>
+							</div>
+                            <div class="col-lg-4 col-sm-6  mt30 wow fadeInUp" data-wow-delay="1.2s" >
+								<div class="s-block up-hor bd-hor-base">
+									<div class="nn-card-set" >
+										<div class="s-card-icon"><img src="{{asset('images/jadwal-dokter.png')}}" alt="service" class="img-fluid" /></div>
+										<h4>Jadwal Dokter</h4>
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+										<a href="javascript:void(0)">Learn More <i class="fas fa-chevron-right fa-icon"></i></a>
+									</div>
+								</div>
+							</div>
+                            <div class="col-lg-4 col-sm-6  mt30 wow fadeInUp" data-wow-delay="1.2s" >
+								<div class="s-block up-hor bd-hor-base">
+									<div class="nn-card-set" >
+										<div class="s-card-icon"><img src="{{asset('images/layananunggulan.png')}}" alt="service" class="img-fluid" /></div>
+										<h4>Layanan Unggulan</h4>
 										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 										<a href="javascript:void(0)">Learn More <i class="fas fa-chevron-right fa-icon"></i></a>
 									</div>
@@ -317,7 +343,7 @@
 						<div class="row justify-content-center ">
 							<div class="col-lg-8">
 								<div class="common-heading">
-									<h2 class="mb20">Our Latest Creative Work</h2>
+									<h2 class="mb20">Penghargaan</h2>
 									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 								</div>
 							</div>
@@ -444,14 +470,14 @@
 								<div class="row justify-content-center">
 									<div class="col-lg-4 col-md-4">
 										<div class="image-block upset h-scl-">
-											<div class="image-div h-scl-base"><img src="images/team/team-single.jpg" alt="team" class="img-fluid"/></div>
+											<div class="image-div h-scl-base"><img src="{{asset('images/direktur.jpg')}}" alt="team" class="img-fluid"/></div>
 										</div>
 									</div>
 									<div class="col-lg-5 col-md-5">
 										<div class="full-image-card mt0">
 											<div class="info-text-block">
-												<h3><a href="#">Anna Rexia</a></h3>
-												<p>Company CTO</p>
+												<h3><a href="#">dr.Lukasiwan Eddy Saputro</a></h3>
+												<p>Direktur RSUD RAPB PPU</p>
 												<div class="social-media-profile">
 													<a href="javascript:void(0)" target="blank"><i class="fab fa-facebook"></i></a>
 													<a href="javascript:void(0)" target="blank"><i class="fab fa-twitter"></i></a>
@@ -469,7 +495,7 @@
 								<div class="row justify-content-center">
 									<div class="col-lg-4 col-md-4">
 										<div class="image-block upset">
-											<div class="image-div"><a href="#"><img src="images/team/team-single.jpg" alt="team" class="img-fluid"/></a></div>
+											<div class="image-div"><a href="#"><img src="{{asset('images/direktur.jpg')}}" alt="team" class="img-fluid"/></a></div>
 										</div>
 									</div>
 									<div class="col-lg-5 col-md-5">
@@ -893,5 +919,6 @@
 <script type="text/javascript" src="{{asset('js/preloader.js')}}"></script>
 <!--common script file-->
 <script type="text/javascript" src="{{asset('js/main.js')}}"></script>
+<script src="js/dark-mode.js"></script>
 </body>
 </html>

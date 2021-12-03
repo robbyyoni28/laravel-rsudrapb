@@ -2782,7 +2782,7 @@ padding: 15px;}
 .icon-card- img{width:60px;}
 .icon-card- h4{margin: 20px 0}
 /**Help css**/
-.onloadpage {position: fixed; z-index: 99999999; top: 0; right: 0; bottom: 0; left: 0; display: block; background: #ffffff;}
+.onloadpage {position: fixed; z-index: 99999999; top: 0; right: 0; bottom: 0; left: 0; display: block; background: rgb(44, 44, 44);}
 .onloadpage .pre-content{top: 50%; position: relative; right: 0; left: 0; text-align: center; transform: translateY(-50%);   }
 .onloadpage .pre-text- {  font-size: 18px;    line-height: 28px;    font-weight: 600;    width: 30%;    margin: 0 auto;}
 .onloadpage .pre-text- span{display: block;}

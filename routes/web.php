@@ -6,6 +6,7 @@ use App\Http\Controllers\FrontendController;
 use App\Http\Controllers\home;
 use App\Http\Controllers\about;
 use App\Http\Controllers\profile;
+use App\Http\Controllers\rawatjalan;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,4 +26,5 @@ use App\Http\Controllers\profile;
 Route::get('/', [home::class, 'home']);
 Route::get('/about', [about::class, 'about']);
 Route::get('/profile',[profile::class,'profile']);
+Route::get('/rawatjalan',[rawatjalan::class,'rawatjalan']);
 
