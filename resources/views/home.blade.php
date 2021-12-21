@@ -139,7 +139,7 @@
 						<div class="row">
 							<div class="col-lg-6 v-center">
 								<div class="header-heading">
-									<h1 class="wow fadeInUp" data-wow-delay=".2s">Rumah Sakit Umum Daerah <span style="color: #ff40e0">Putri Aji Botung</span> Penajam Paser Utara</h1>
+									<h1 class="wow fadeInUp" data-wow-delay=".2s">Rumah Sakit Umum Daerah <span style="color: #ff40e0">Ratu Aji Putri Botung</span> Penajam Paser Utara</h1>
 									<p class="wow fadeInUp" data-wow-delay=".4s">Rumah Sakit Umum Daerah Ratu Aji Putri Botung (RSUD RAPB) adalah rumah sakit milik Pemerintah Kabupaten Penajam Paser Utara Kalimantan Timur yang berada di lokasi strategis tepatnya di jalan Propinsi Km.09 Kelurahan Nipah-nipah, yang merupakan jalan utama propinsi penghubung kota Balikpapan dengan kabupaten Paser. RSUD. Ratu Aji Putri Botung memiliki visi Menjadi Rumah Sakit Yang Modern dan bermutu Pilihan Utama Masyarakat Penajam Paser Utara</p>
 									<a href="#" class="btn-main bg-btn7 lnk wow fadeInUp" data-wow-delay=".6s">GET STARTED<i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></a>
 								</div>
@@ -212,8 +212,8 @@
 									<div class="nn-card-set">
 										<div class="s-card-icon"><img src="{{asset(('images/rawatjalan.png'))}}" alt="service" class="img-fluid" /></div>
 										<h4>Poli Rawat Jalan</h4>
-										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-										<a href="/rawatjalan">Learn More <i class="fas fa-chevron-right fa-icon"></i></a>
+										<p>Melayani tindakan observasi, diagnosis, pengobatan, rehabilitasi medik, serta pelayanan kesehatan lainnya.</p>
+										<a href="/rawatjalan">Read More <i class="fas fa-chevron-right fa-icon"></i></a>
 									</div>
 								</div>
 							</div>
@@ -222,8 +222,8 @@
 									<div class="nn-card-set">
 										<div class="s-card-icon"><img src="{{asset(('images/rawatinap.png'))}}" alt="service" class="img-fluid" /></div>
 										<h4>Poli Rawat Inap</h4>
-										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-										<a href="javascript:void(0)">Learn More <i class="fas fa-chevron-right fa-icon"></i></a>
+										<p>Ruang Rawat Inap Rumah Sakit RAPB terbagi atas ruang perawatan dewasa, ruang perawatan anak, dll.</p>
+										<a href="javascript:void(0)">Read More <i class="fas fa-chevron-right fa-icon"></i></a>
 									</div>
 								</div>
 							</div>
@@ -232,8 +232,8 @@
 									<div class="nn-card-set">
 										<div class="s-card-icon"><img src="{{asset('images/mcu.png')}}" alt="service" class="img-fluid" /></div>
 										<h4>Medical Check Up</h4>
-										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-										<a href="javascript:void(0)">Learn More <i class="fas fa-chevron-right fa-icon"></i></a>
+										<p>Medical Check Up Rumah Sakit Ratu Aji Putri Botung siap membantu untuk memonitor kondisi kesehatan anda.</p>
+										<a href="javascript:void(0)">Read More <i class="fas fa-chevron-right fa-icon"></i></a>
 									</div>
 								</div>
 							</div>
@@ -242,8 +242,8 @@
 									<div class="nn-card-set">
 										<div class="s-card-icon"><img src="{{asset('images/hemodialisa.png')}}" alt="service" class="img-fluid" /></div>
 										<h4>Hemodialisa</h4>
-										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-										<a href="javascript:void(0)">Learn More <i class="fas fa-chevron-right fa-icon"></i></a>
+										<p>Hemodialisa merupakan unit pelayanan RSUD RAPB yang diperuntukkan bagi penderita gagal ginjal.</p>
+										<a href="javascript:void(0)">Read More <i class="fas fa-chevron-right fa-icon"></i></a>
 									</div>
 								</div>
 							</div>
@@ -252,8 +252,8 @@
 									<div class="nn-card-set">
 										<div class="s-card-icon"><img src="{{asset('images/laboratorium.png')}}" alt="service" class="img-fluid" /></div>
 										<h4>Laboratorium</h4>
-										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-										<a href="javascript:void(0)">Learn More <i class="fas fa-chevron-right fa-icon"></i></a>
+										<p>unit pelayanan diagnostik dengan pelayanan selama 24 jam dan didukung oleh tenaga profesional.</p>
+										<a href="javascript:void(0)">Read More <i class="fas fa-chevron-right fa-icon"></i></a>
 									</div>
 								</div>
 							</div>
@@ -262,8 +262,8 @@
 									<div class="nn-card-set">
 										<div class="s-card-icon"><img src="{{asset('images/bedah.png')}}" alt="service" class="img-fluid" /></div>
 										<h4>Bedah</h4>
-										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-										<a href="javascript:void(0)">Learn More <i class="fas fa-chevron-right fa-icon"></i></a>
+										<p>Rumah Sakit Ratu Aji Putri Botung memiliki sejumlah spesialis bedah yang berpengalaman di bidangnya.</p>
+										<a href="javascript:void(0)">Read More <i class="fas fa-chevron-right fa-icon"></i></a>
 									</div>
 								</div>
 							</div>
@@ -272,7 +272,7 @@
 									<div class="nn-card-set">
 										<div class="s-card-icon"><img src="{{asset('images/fisioterapi.png')}}" alt="service" class="img-fluid" /></div>
 										<h4>Fisioterapi</h4>
-										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+										<p>memberikan pelayanan fisioterapi yang berfokus pada kebutuhan pasien serta menggunakan konsep fisioterapi terkini .</p>
 										<a href="javascript:void(0)">Learn More <i class="fas fa-chevron-right fa-icon"></i></a>
 									</div>
 								</div>
@@ -282,7 +282,7 @@
 									<div class="nn-card-set">
 										<div class="s-card-icon"><img src="{{asset('images/radiologi.png')}}" alt="service" class="img-fluid" /></div>
 										<h4>Radiologi</h4>
-										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+										<p>Unit Radiologi RSUD RAPB merupakan salah satu unit penunjang medik di RSUD RAPB.</p>
 										<a href="javascript:void(0)">Learn More <i class="fas fa-chevron-right fa-icon"></i></a>
 									</div>
 								</div>
@@ -292,8 +292,8 @@
 									<div class="nn-card-set">
 										<div class="s-card-icon"><img src="{{asset('images/farmasi.png')}}" alt="service" class="img-fluid" /></div>
 										<h4>Farmasi</h4>
-										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-										<a href="javascript:void(0)">Learn More <i class="fas fa-chevron-right fa-icon"></i></a>
+										<p>instalasi farmasi yang beroperasi selama 24 jam, sehingga dapat memudahkan pasien mendapatkan obat-obatan.</p>
+										<a href="javascript:void(0)">Read More <i class="fas fa-chevron-right fa-icon"></i></a>
 									</div>
 								</div>
 							</div>
@@ -301,9 +301,9 @@
 								<div class="s-block up-hor bd-hor-base">
 									<div class="nn-card-set" >
 										<div class="s-card-icon"><img src="{{asset('images/igd.png')}}" alt="service" class="img-fluid" /></div>
-										<h4>IGD</h4>
-										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-										<a href="javascript:void(0)">Learn More <i class="fas fa-chevron-right fa-icon"></i></a>
+										<h4>Instalasi Gawat Darurat</h4>
+										<p>Layanan emergensi yang memberikan penanganan serta pertolongan pertama pada pasien-pasien gawat darurat.</p>
+										<a href="javascript:void(0)">Read More <i class="fas fa-chevron-right fa-icon"></i></a>
 									</div>
 								</div>
 							</div>
