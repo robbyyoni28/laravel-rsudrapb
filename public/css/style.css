@@ -120,7 +120,7 @@ line-height: 48px;}
 .popup-modalfull .modal-body { overflow-y: auto;}
 /**mega menu header **/
 .main-header.sticky .nx-dropdown { top: 65px;}
-.nav-bg-b .custom-nav .nav-list li a.menu-links {  color: #fff;}
+.nav-bg-b .custom-nav .nav-list li a.menu-links {  color: rgb(0, 0, 0);}
 .main-header.sticky{
 background: #fff;
 -webkit-box-shadow: 0 4px 6px 0 rgba(12, 0, 46, .08);
@@ -3219,7 +3219,7 @@ transition: all .2s ease}
 .nav-bg-b .hc-nav-trigger span,
 .nav-bg-b .hc-nav-trigger span::before,
 .nav-bg-b .hc-nav-trigger span::after {
-background: #fff;}
+background: #000;}
 .hc-nav-trigger span::before,
 .hc-nav-trigger span::after {content: ''; width: 100% }
 .hc-nav-trigger span::before {top: -10px }

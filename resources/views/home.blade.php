@@ -32,8 +32,8 @@
 		<!--Start Preloader -->
 		<div class="onloadpage" id="page_loader">
 			<div class="pre-content">
-			   <div class="logo-pre"><img src="http://2.bp.blogspot.com/-GUko8t7XodU/VND4AhaJj4I/AAAAAAAABhI/cOZOsW0zdHM/s1600/logo+pemkab+penajam+paser+utara.png" alt="Logo" class="img-fluid" /></div>
-			   <div class="pre-text- text-radius text-light text-animation bg-b">RSUD PUTRI AJI BOTUNG KABUPATEN PENAJAM PASER UTARA</div>
+			   <div class="logo-pre"><img src="{{asset('images/logo_penajam.png')}}" alt="Logo" class="img-fluid" /></div>
+			   <div class="pre-text- text-radius text-light text-animation bg-b">RSUD RATU AJI PUTRI BOTUNG KABUPATEN PENAJAM PASER UTARA</div>
 			</div>
 		 </div>
 		<!--End Preloader -->
@@ -42,18 +42,18 @@
 			<div class="container-fluid m-pad">
 				<div class="menu-header">
 					<div class="dsk-logo"><a class="nav-brand" href="digital-agency.html">
-						<img src="http://2.bp.blogspot.com/-GUko8t7XodU/VND4AhaJj4I/AAAAAAAABhI/cOZOsW0zdHM/s1600/logo+pemkab+penajam+paser+utara.png" alt="Logo" class="mega-white-logo"/>
-						<img src="http://2.bp.blogspot.com/-GUko8t7XodU/VND4AhaJj4I/AAAAAAAABhI/cOZOsW0zdHM/s1600/logo+pemkab+penajam+paser+utara.png" alt="Logo" class="mega-darks-logo"/>
+						<img src="{{asset('images/logo_penajam.png')}}" alt="Logo" class="mega-white-logo"/>
+						<img src="{{asset('images/logo_penajam.png')}}" alt="Logo" class="mega-darks-logo"/>
 					</a></div>
 					<div class="custom-nav" role="navigation">
 						<ul class="nav-list onepge">
 							<li><a href="/" class="menu-links">Home</a></li>
 							<li><a href="#about" class="menu-links">About</a></li>
 							<li><a href="#services" class="menu-links">Fasilitas Dan Layanan</a></li>
-							<li><a href="#work" class="menu-links">Work</a></li>
+							<li><a href="#work" class="menu-links">Penghargaan</a></li>
 							<li><a href="#team" class="menu-links">Team</a></li>
-							<li><a href="#blogs" class="menu-links">Blog</a></li>
-							<li><a href="get-quote.html" class="btn-br bg-btn5 btshad-b2 lnk" data-toggle="modal" data-target="#menu-popup">Request A Quote <span class="circle"></span></a> </li>
+							<li><a href="#blogs" class="menu-links">Informasi</a></li>
+							<li><a href="get-quote.html" class="btn-br bg-btn5 btshad-b2 lnk" data-toggle="modal" data-target="#menu-popup">Kritik & Saran<span class="circle"></span></a> </li>
 						</ul>
 					</div>
 					<div class="mobile-menu2">
@@ -68,10 +68,10 @@
 					<ul class="first-nav">
 						<li><a href="#home" class="menu-links">Home</a></li>
 						<li><a href="#about" class="menu-links">About</a></li>
-						<li><a href="#services" class="menu-links">Services</a></li>
-						<li><a href="#work" class="menu-links">Work</a></li>
+						<li><a href="#services" class="menu-links">Fasilitas Dan Layanan</a></li>
+						<li><a href="#work" class="menu-links">Penghargaan</a></li>
 						<li><a href="#team" class="menu-links">Team</a></li>
-						<li><a href="#blogs" class="menu-links">Blog</a></li>
+						<li><a href="#blogs" class="menu-links">Informasi</a></li>
 					</ul>
 					<ul class="bottom-nav">
 						<li class="prb">
@@ -106,7 +106,7 @@
 						<div class="modal-content">
 							<div class="modal-header">
 								<div class="common-heading">
-									<h4 class="mt0 mb0">Request A Quote </h4>
+									<h4 class="mt0 mb0">Kritik & Saran </h4>
 								</div>
 							<button type="button" class="closes" data-dismiss="modal">&times;</button></div>
 							<!-- Modal body -->
@@ -140,7 +140,7 @@
 							<div class="col-lg-6 v-center">
 								<div class="header-heading">
 									<h1 class="wow fadeInUp" data-wow-delay=".2s">Rumah Sakit Umum Daerah <span style="color: #ff40e0">Putri Aji Botung</span> Penajam Paser Utara</h1>
-									<p class="wow fadeInUp" data-wow-delay=".4s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse faucibus, risus sit amet auctor sodales, justo erat tempor eros.</p>
+									<p class="wow fadeInUp" data-wow-delay=".4s">Rumah Sakit Umum Daerah Ratu Aji Putri Botung (RSUD RAPB) adalah rumah sakit milik Pemerintah Kabupaten Penajam Paser Utara Kalimantan Timur yang berada di lokasi strategis tepatnya di jalan Propinsi Km.09 Kelurahan Nipah-nipah, yang merupakan jalan utama propinsi penghubung kota Balikpapan dengan kabupaten Paser. RSUD. Ratu Aji Putri Botung memiliki visi Menjadi Rumah Sakit Yang Modern dan bermutu Pilihan Utama Masyarakat Penajam Paser Utara</p>
 									<a href="#" class="btn-main bg-btn7 lnk wow fadeInUp" data-wow-delay=".6s">GET STARTED<i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></a>
 								</div>
 							</div>
@@ -385,7 +385,7 @@
 							<div class="row justify-content-center">
 								<div class="col-lg-8">
 									<div class="common-heading">
-										<h2 class="mb20">Amazing Clients</h2>
+										<h2 class="mb20">Produk unggulan</h2>
 										<p class="mb30">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 									</div>
 								</div>
