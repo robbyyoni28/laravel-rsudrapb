@@ -47,7 +47,7 @@
 					</a></div>
 					<div class="custom-nav" role="navigation">
 						<ul class="nav-list onepge">
-							<li><a href="/" class="menu-links">Home</a></li>
+							<li><a href="#home" class="menu-links">Home</a></li>
 							<li><a href="#about" class="menu-links">About</a></li>
 							<li><a href="#services" class="menu-links">Fasilitas Dan Layanan</a></li>
 							<li><a href="#work" class="menu-links">Penghargaan</a></li>
@@ -169,17 +169,19 @@
 									<p>Rumah Sakit Umum Daerah Ratu Aji Putri Botung (RSUD RAPB) adalah rumah sakit milik Pemerintah Kabupaten Penajam Paser Utara Kalimantan Timur yang berada di lokasi strategis tepatnya di jalan Propinsi Km.09 Kelurahan Nipah-nipah, yang merupakan jalan utama propinsi penghubung kota Balikpapan dengan kabupaten Paser. RSUD. Ratu Aji Putri Botung memiliki visi Menjadi Rumah Sakit Yang Modern dan bermutu Pilihan Utama Masyarakat Penajam Paser Utara.</p>
 									<div class="itm-media-object mt60 tilt-3d">
 										<div class="media">
-											<div class="img-ab- base" data-tilt data-tilt-max="20" data-tilt-speed="1000"><img src="images/icons/computers.svg" alt="icon" class="layer"></div>
+											<div class="img-ab- base" data-tilt data-tilt-max="20" data-tilt-speed="1000"><img src="{{asset('images/visi.png')}}" alt="icon" class="layer"></div>
 											<div class="media-body">
-												<h4>Streamlined Project Management</h4>
-												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet ligula nec leo elementum semper.</p>
+												<h4>Visi RSUD Ratu Aji Putri Botung</h4>
+												<p>Menjadi rumah sakit yang modern dan bermutu pilihan utama masyarakat penajam paser utara.</p>
 											</div>
 										</div>
 										<div class="media mt50">
-											<div class="img-ab- base" data-tilt data-tilt-max="20" data-tilt-speed="1000"><img src="images/icons/worker.svg" alt="icon" class="layer"></div>
+											<div class="img-ab- base" data-tilt data-tilt-max="20" data-tilt-speed="1000"><img src="{{asset('images/misi.png')}}" alt="icon" class="layer"></div>
 											<div class="media-body">
-												<h4>A Dedicated Team of Experts</h4>
-												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet ligula nec leo elementum semper.</p>
+												<h4>Misi Rsud Putri Aji Botung</h4>
+												<p>1. Memberikan pelayanan yang cepat, tepat dan aman berbasis informasi teknologi.</p>
+												<p>2. Mewujudkan sistem manajemen rumah sakit yang akuntabel dan transparan.</p>
+												<p>3. Meningkatkan sdm rumah sakit melalui pendidikan, pelatihan dan ibadah.</p>
 											</div>
 										</div>
 									</div>
@@ -223,7 +225,7 @@
 										<div class="s-card-icon"><img src="{{asset(('images/rawatinap.png'))}}" alt="service" class="img-fluid" /></div>
 										<h4>Poli Rawat Inap</h4>
 										<p>Ruang Rawat Inap Rumah Sakit RAPB terbagi atas ruang perawatan dewasa, ruang perawatan anak, dll.</p>
-										<a href="javascript:void(0)">Read More <i class="fas fa-chevron-right fa-icon"></i></a>
+										<a href="/rawatinap">Read More <i class="fas fa-chevron-right fa-icon"></i></a>
 									</div>
 								</div>
 							</div>
@@ -233,7 +235,7 @@
 										<div class="s-card-icon"><img src="{{asset('images/mcu.png')}}" alt="service" class="img-fluid" /></div>
 										<h4>Medical Check Up</h4>
 										<p>Medical Check Up Rumah Sakit Ratu Aji Putri Botung siap membantu untuk memonitor kondisi kesehatan anda.</p>
-										<a href="javascript:void(0)">Read More <i class="fas fa-chevron-right fa-icon"></i></a>
+										<a href="/medicalcheckup">Read More <i class="fas fa-chevron-right fa-icon"></i></a>
 									</div>
 								</div>
 							</div>
@@ -243,7 +245,7 @@
 										<div class="s-card-icon"><img src="{{asset('images/hemodialisa.png')}}" alt="service" class="img-fluid" /></div>
 										<h4>Hemodialisa</h4>
 										<p>Hemodialisa merupakan unit pelayanan RSUD RAPB yang diperuntukkan bagi penderita gagal ginjal.</p>
-										<a href="javascript:void(0)">Read More <i class="fas fa-chevron-right fa-icon"></i></a>
+										<a href="/hemodialisa">Read More <i class="fas fa-chevron-right fa-icon"></i></a>
 									</div>
 								</div>
 							</div>
@@ -253,7 +255,7 @@
 										<div class="s-card-icon"><img src="{{asset('images/laboratorium.png')}}" alt="service" class="img-fluid" /></div>
 										<h4>Laboratorium</h4>
 										<p>unit pelayanan diagnostik dengan pelayanan selama 24 jam dan didukung oleh tenaga profesional.</p>
-										<a href="javascript:void(0)">Read More <i class="fas fa-chevron-right fa-icon"></i></a>
+										<a href="/laboratorium">Read More <i class="fas fa-chevron-right fa-icon"></i></a>
 									</div>
 								</div>
 							</div>
@@ -263,7 +265,7 @@
 										<div class="s-card-icon"><img src="{{asset('images/bedah.png')}}" alt="service" class="img-fluid" /></div>
 										<h4>Bedah</h4>
 										<p>Rumah Sakit Ratu Aji Putri Botung memiliki sejumlah spesialis bedah yang berpengalaman di bidangnya.</p>
-										<a href="javascript:void(0)">Read More <i class="fas fa-chevron-right fa-icon"></i></a>
+										<a href="/bedah">Read More <i class="fas fa-chevron-right fa-icon"></i></a>
 									</div>
 								</div>
 							</div>
@@ -273,7 +275,7 @@
 										<div class="s-card-icon"><img src="{{asset('images/fisioterapi.png')}}" alt="service" class="img-fluid" /></div>
 										<h4>Fisioterapi</h4>
 										<p>memberikan pelayanan fisioterapi yang berfokus pada kebutuhan pasien serta menggunakan konsep fisioterapi terkini .</p>
-										<a href="javascript:void(0)">Learn More <i class="fas fa-chevron-right fa-icon"></i></a>
+										<a href="/fisioterapi">Learn More <i class="fas fa-chevron-right fa-icon"></i></a>
 									</div>
 								</div>
 							</div>
@@ -283,7 +285,7 @@
 										<div class="s-card-icon"><img src="{{asset('images/radiologi.png')}}" alt="service" class="img-fluid" /></div>
 										<h4>Radiologi</h4>
 										<p>Unit Radiologi RSUD RAPB merupakan salah satu unit penunjang medik di RSUD RAPB.</p>
-										<a href="javascript:void(0)">Learn More <i class="fas fa-chevron-right fa-icon"></i></a>
+										<a href="/radiologi">Learn More <i class="fas fa-chevron-right fa-icon"></i></a>
 									</div>
 								</div>
 							</div>
@@ -293,7 +295,7 @@
 										<div class="s-card-icon"><img src="{{asset('images/farmasi.png')}}" alt="service" class="img-fluid" /></div>
 										<h4>Farmasi</h4>
 										<p>instalasi farmasi yang beroperasi selama 24 jam, sehingga dapat memudahkan pasien mendapatkan obat-obatan.</p>
-										<a href="javascript:void(0)">Read More <i class="fas fa-chevron-right fa-icon"></i></a>
+										<a href="/farmasi">Read More <i class="fas fa-chevron-right fa-icon"></i></a>
 									</div>
 								</div>
 							</div>
@@ -303,7 +305,7 @@
 										<div class="s-card-icon"><img src="{{asset('images/igd.png')}}" alt="service" class="img-fluid" /></div>
 										<h4>Instalasi Gawat Darurat</h4>
 										<p>Layanan emergensi yang memberikan penanganan serta pertolongan pertama pada pasien-pasien gawat darurat.</p>
-										<a href="javascript:void(0)">Read More <i class="fas fa-chevron-right fa-icon"></i></a>
+										<a href="/igd">Read More <i class="fas fa-chevron-right fa-icon"></i></a>
 									</div>
 								</div>
 							</div>
@@ -680,7 +682,7 @@
 							<div class="row justify-content-center">
 								<div class="col-lg-8">
 									<div class="common-heading">
-										<h2 class="mb20">Latest Stories</h2>
+										<h2 class="mb20">Informasi</h2>
 										<p class="mb30">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 									</div>
 								</div>

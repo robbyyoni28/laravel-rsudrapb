@@ -74,7 +74,7 @@ span.circle2{background: rgba(255, 255, 255, 0.2); display: block; position: abs
 display: inline-block;
 margin-left: 3px;
 vertical-align: baseline;
-content: "+";
+/* content: "+"; */
 border-top: 0;
 border-right: 0;
 border-bottom: 0;
@@ -144,8 +144,8 @@ width: 100%;}
 .right-bddr{    border-right: 1px solid rgba(255, 255, 255, 0.1);
 padding: 0px 10px 0 0px !important;
 margin: 0 20px 0 0;}
-.custom-nav .sbmenu > a::before {content: "+"; position: absolute; right: 4px;}
-.custom-nav .sbmenu.hover > a::before { content: "-"; }
+.custom-nav .sbmenu > a::before {content: ""; position: absolute; right: 4px;}
+.custom-nav .sbmenu.hover > a::before { content: ""; }
 .main-header.sticky .custom-nav .nav-list li a.menu-links { color: #050748;}
 .main-header.sticky  .mega-white-logo{display:none;}
 .main-header  .mega-white-logo{display:none;}
