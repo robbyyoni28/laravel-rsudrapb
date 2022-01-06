@@ -9,14 +9,14 @@
 <div class="row">
 <div class="col-lg-6 v-center">
 <div class="header-heading">
-  <h1 class="wow fadeInUp" data-wow-delay=".2s">Poliklinik Rawat Jalan</h1>
-  <p class="wow fadeInUp" data-wow-delay=".4s">Instalasi rawat jalan atau yang biasa dikenal dengan poliklinik melayani tindakan observasi, diagnosis, pengobatan, rehabilitasi medik, serta pelayanan kesehatan lainnya. Instalansi Rawat Jalan adalah pelayanan kesehatan yang dilakukan tanpa pasien menginap. Instalasi rawat jalan RSUD. Ratu Aji Putri Botung didukung oleh dokter umum, dokter spesialis, dan dokter sub spesialis. Pasien wajib melakukan registrasi atau pendaftaran sebelum memperoleh pelayanan kesehatan.</p>
-  <a href="#poli" class="btn-main bg-btn lnk wow fadeInUp" data-wow-delay=".6s">List Poli Rawat Jalan<i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+  <h1 class="wow fadeInUp" data-wow-delay=".2s">Poli Rawat Inap</h1>
+  <p class="wow fadeInUp" data-wow-delay=".4s">Instalasi Ruang Rawat Inap Rumah Sakit Ratu Aji Putri Botung terbagi atas ruang perawatan dewasa, ruang perawatan anak,  perawatan kelas I A, Ruang perawatan kelas I B. Berikut rincian kamar rawat inap Rumah Sakit Ratu Aji Putri Botung , yaitu :</p>
+  <a href="#poli" class="btn-main bg-btn lnk wow fadeInUp" data-wow-delay=".6s">Rincian Kamar Rawat Inap<i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></a>
 </div>
 </div>
 <div class="col-lg-6 v-center">
 <div class="single-image wow fadeIn" data-wow-delay=".5s">
-  <img src="{{asset('images/poliklinik-rsud-ppu.jpg')}}" alt="web development" class="img-fluid" />
+  <img src="{{asset('images/rawat_inap.JPG')}}" alt="web development" class="img-fluid" />
 </div>
 </div>
 </div>
@@ -57,12 +57,12 @@ specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting 
 <!--End About-->
 <!-- Start Service -->
 <section class="service-section web-servic pad-tb">
-<div class="container">
+<div class="container" >
 <div class="row justify-content-center">
 <div class="col-lg-8">
 <div class="common-heading">
 <span>"Profesionalisme kami adalah ibadah, kesembuhan anda adalah amanah"</span>
-<h2 class="mb30" id="poli">Poliklinik Rawat Jalan</h2>
+<h2 class="mb30" id="poli">List Ruangan Rawat Inap</h2>
 </div>
 </div>
 </div>
@@ -70,7 +70,8 @@ specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting 
 <div class="col-lg-3 col-sm-6 mt30 shape-loc wow fadeInUp" data-wow-delay="0.2s">
 <div class="s-block" data-tilt data-tilt-max="5" data-tilt-speed="1000">
 <div class="s-card-icon"><img src="{{asset('images/penyakitdalam.png')}}" alt="service" class="img-fluid"/></div>
-<h4>Poli Penyakit Dalam</h4>
+<h4>Ruang Perawatan Dewasa</h4>
+<h5>25</h5>
 <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 <a href="javascript:void(0)">Learn More <i class="fas fa-chevron-right fa-icon"></i></a> -->
 </div>
@@ -78,7 +79,8 @@ specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting 
 <div class="col-lg-3 col-sm-6 mt30 shape-loc wow fadeInUp" data-wow-delay="0.4s">
 <div class="s-block" data-tilt data-tilt-max="5" data-tilt-speed="1000">
 <div class="s-card-icon"><img src="{{asset('images/poli-anak.png')}}" alt="service" class="img-fluid"/></div>
-<h4 >Poli Anak</h4>
+<h4 >Ruang Perawatan Anak</h4>
+<h5>25</h5>
 <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 <a href="javascript:void(0)">Learn More <i class="fas fa-chevron-right fa-icon"></i></a> -->
 </div>
@@ -86,7 +88,8 @@ specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting 
 <div class="col-lg-3 col-sm-6 mt30 shape-loc wow fadeInUp" data-wow-delay="0.6s">
 <div class="s-block" data-tilt data-tilt-max="5" data-tilt-speed="1000">
 <div class="s-card-icon"><img src="{{asset('images/kandungan.png')}}" alt="service" class="img-fluid"/></div>
-<h4>Poli Kandungan</h4>
+<h4>Ruang Perawatan Kelas I A</h4>
+<h5>25</h5>
 <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 <a href="javascript:void(0)">Learn More <i class="fas fa-chevron-right fa-icon"></i></a> -->
 </div>
@@ -94,61 +97,62 @@ specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting 
 <div class="col-lg-3 col-sm-6 mt30 shape-loc wow fadeInUp" data-wow-delay="0.8s">
 <div class="s-block mb0" data-tilt data-tilt-max="5" data-tilt-speed="1000">
 <div class="s-card-icon"><img src="{{asset('images/tht.png')}}" alt="service" class="img-fluid"/></div>
-<h4>Poli THT</h4>
+<h4>Ruang Perawatan Kelas I A</h4>
+<h5>25</h5>
 <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 <a href="javascript:void(0)">Learn More <i class="fas fa-chevron-right fa-icon"></i></a> -->
 </div>
 </div>
-<div class="col-lg-3 col-sm-6 mt30 shape-loc wow fadeInUp" data-wow-delay="0.6s">
+{{-- <div class="col-lg-3 col-sm-6 mt30 shape-loc wow fadeInUp" data-wow-delay="0.6s">
 <div class="s-block" data-tilt data-tilt-max="5" data-tilt-speed="1000">
 <div class="s-card-icon"><img src="{{asset('images/mata.png')}}" alt="service" class="img-fluid"/></div>
-<h4>Poli Mata</h4>
+<h4>Poli Mata</h4> --}}
 <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 <a href="javascript:void(0)">Learn More <i class="fas fa-chevron-right fa-icon"></i></a> -->
-</div>
+{{-- </div>
 </div>
 <div class="col-lg-3 col-sm-6 mt30 shape-loc wow fadeInUp" data-wow-delay="0.6s">
 <div class="s-block" data-tilt data-tilt-max="5" data-tilt-speed="1000">
 <div class="s-card-icon"><img src="{{asset('images/saraf.png')}}" alt="service" class="img-fluid"/></div>
-<h4>Poli Saraf</h4>
+<h4>Poli Saraf</h4> --}}
 <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 <a href="javascript:void(0)">Learn More <i class="fas fa-chevron-right fa-icon"></i></a> -->
-</div>
+{{-- </div>
 </div>
 <div class="col-lg-3 col-sm-6 mt30 shape-loc wow fadeInUp" data-wow-delay="0.6s">
 <div class="s-block" data-tilt data-tilt-max="5" data-tilt-speed="1000">
 <div class="s-card-icon"><img src="{{asset('images/jiwa.png')}}" alt="service" class="img-fluid"/></div>
-<h4>Poli Jiwa</h4>
+<h4>Poli Jiwa</h4> --}}
 <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 <a href="javascript:void(0)">Learn More <i class="fas fa-chevron-right fa-icon"></i></a> -->
-</div>
+{{-- </div>
 </div>
 <div class="col-lg-3 col-sm-6 mt30 shape-loc wow fadeInUp" data-wow-delay="0.6s">
 <div class="s-block" data-tilt data-tilt-max="5" data-tilt-speed="1000">
 <div class="s-card-icon"><img src="{{asset('images/gigi.png')}}" alt="service" class="img-fluid"/></div>
-<h4>Poli Gigi</h4>
+<h4>Poli Gigi</h4> --}}
 <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 <a href="javascript:void(0)">Learn More <i class="fas fa-chevron-right fa-icon"></i></a> -->
-</div>
+{{-- </div>
 </div>
 <div class="col-lg-3 col-sm-6 mt30 shape-loc wow fadeInUp" data-wow-delay="0.6s">
 <div class="s-block" data-tilt data-tilt-max="5" data-tilt-speed="1000">
 <div class="s-card-icon"><img src="{{asset('images/gizi.png')}}" alt="service" class="img-fluid"/></div>
-<h4>Poli Gizi</h4>
+<h4>Poli Gizi</h4> --}}
 <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 <a href="javascript:void(0)">Learn More <i class="fas fa-chevron-right fa-icon"></i></a> -->
-</div>
+{{-- </div>
 </div><div class="col-lg-3 col-sm-6 mt30 shape-loc wow fadeInUp" data-wow-delay="0.6s">
 <div class="s-block" data-tilt data-tilt-max="5" data-tilt-speed="1000">
 <div class="s-card-icon"><img src="{{asset('images/vct.png')}}" alt="service" class="img-fluid"/></div>
-<h4>Poli VCT</h4>
+<h4>Poli VCT</h4> --}}
 <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 <a href="javascript:void(0)">Learn More <i class="fas fa-chevron-right fa-icon"></i></a> -->
-</div>
+{{-- </div>
 </div><div class="col-lg-3 col-sm-6 mt30 shape-loc wow fadeInUp" data-wow-delay="0.6s">
 <div class="s-block" data-tilt data-tilt-max="5" data-tilt-speed="1000">
 <div class="s-card-icon"><img src="{{asset('images/paru.png')}}" alt="service" class="img-fluid"/></div>
-<h4>Poli DOTS TB</h4>
+<h4>Poli DOTS TB</h4> --}}
 <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 <a href="javascript:void(0)">Learn More <i class="fas fa-chevron-right fa-icon"></i></a> -->
 </div>

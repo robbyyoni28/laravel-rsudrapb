@@ -2,7 +2,7 @@
 <html lang="en" class="no-js">
   <head>
     <meta charset="utf-8"/>
-    <title>Niwax - Web Design &amp; Digital Marketing Agency HTML Template</title>
+    <title>RSUD RATU AJI PUTRI BOTUNG</title>
     <meta name="description" content="Creative Agency, Marketing Agency Template">
     <meta name="keywords" content="Creative Agency, Marketing Agency">
     <meta name="author" content="rajesh-doot">
@@ -35,7 +35,7 @@
 	   <div class="onloadpage" id="page_loader">
 		<div class="pre-content">
 		   <div class="logo-pre"><img src="{{asset('images/logo_penajam.png')}}" alt="Logo" class="img-fluid" /></div>
-		   <div class="pre-text- text-radius text-light text-animation bg-b">Niwax - Creative Agency & Portfolio HTML Template Are 2 Seconds Away. Have Patience</div>
+		   <div class="pre-text- text-radius text-light text-animation bg-b">RSUD RATU AJI PUTRI BOTUNG KABUPATEN PENAJAM PASER UTARA</div>
 		</div>
 	 </div>
 		<!--End Preloader -->
@@ -174,13 +174,13 @@
 								  <div class="sub-menu-center-block">
 									 <div class="sub-menu-column smfull">
 										<ul>
-										   <li><a href="portfolio.html">Poli Rawat Jalan</a> </li>
-										   <li><a href="portfolio-2.html">Poli Rawat Inap</a> </li>
-										   <li><a href="portfolio-block.html">Medical Check Up</a> </li>
-										   <li><a href="portfolio-details.html">Hemodialisa</a> </li>
-										   <li><a href="portfolio-details.html">Laboratorium</a> </li>
-										   <li><a href="portfolio-details.html">Bedah</a> </li>
-										   <li><a href="portfolio-details.html">Fisioterapi</a> </li>
+										   <li><a href="/rawatjalan">Poli Rawat Jalan</a> </li>
+										   <li><a href="/rawatinap">Poli Rawat Inap</a> </li>
+										   <li><a href="/mcu">Medical Check Up</a> </li>
+										   <li><a href="/hemodialisa">Hemodialisa</a> </li>
+										   <li><a href="/laboratorium">Laboratorium</a> </li>
+										   <li><a href="/bedah">Bedah</a> </li>
+										   <li><a href="/fisioterapi">Fisioterapi</a> </li>
 										   <li><a href="portfolio-details.html">Radiologi</a> </li>
 										   <li><a href="portfolio-details.html">Farmasi</a> </li>
 										   <li><a href="portfolio-details.html">Instalasi Gawat Darurat</a> </li>
